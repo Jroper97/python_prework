@@ -38,14 +38,14 @@ print(max_num_in_list(a_list))
 # The return should be boolean Type (true/false).
 
 def is_leap_year(a_year):
-    #Checking if the year is divisble by 4
-    if a_year % 4 == 0:
+    #Checking if the year is divisble by 400
+    if a_year % 400 == 0:
         return True
     #Checking if the year is divisble by 100
     elif a_year % 100 == 0:
         return False
-    #Checking if the year is divible by 400
-    elif a_year % 400 ==0:
+    #Checking if the year is divible by 4
+    elif a_year % 4 ==0:
         return True
     else:
         return False
